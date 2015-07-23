@@ -25,6 +25,7 @@ a bug here on Github. Older release series will only see sporadic updates, if an
 
 - bfs: [BFS v462](http://ck-hack.blogspot.com/2015/04/bfs-462-linux-40-ck1.html)
 - bfq: [BFQ v7r8](http://algogroup.unimore.it/people/paolo/disk_sched/)
+- block: discard/md corruption fix, improved CFQ SSD awareness
 - btrfs: fixes from 3.19-4.2+ (cleanups, data loss, performance, subvolumes, sysfs, TRIM)
 - ext4: lazytime fixes
 - kconfig: support for `-march=native` ([repository](https://github.com/graysky2/kernel_gcc_patch))
