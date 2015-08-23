@@ -11,7 +11,7 @@ additional features and performance/scalability improvements to the entire kerne
 To apply over a -stable release:
 
 - check out the branch you want, or use master for the current stable version
-- run `patch -s -p1 < ../kernel-patches/version/*.patch` when in the kernel directory
+- run the `../kernel-patches/apply.sh` script when in the kernel directory
 - build as usual
 
 All patches of a series must be applied, as some have interdependencies
@@ -20,6 +20,9 @@ All patches of a series must be applied, as some have interdependencies
 A patch series should apply cleanly to the *latest* version of the respective -stable
 release on [kernel.org](https://www.kernel.org/); if it does not then **please** file
 a bug here on Github. Older release series will only see sporadic updates, if any.
+
+**NOTE:** This branch will no longer receive updates!
+-----------------------------------------------------
 
 **Current stable series: 4.0.9 (EOL)**
 
